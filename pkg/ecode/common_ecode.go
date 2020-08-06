@@ -2,7 +2,7 @@ package ecode
 
 // All common ecode
 var (
-	OK = add(0) // 正确
+	OK = add(200) // 正确
 
 	NotModified        = add(-304) // 木有改动
 	TemporaryRedirect  = add(-307) // 撞车跳转
